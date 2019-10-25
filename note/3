@@ -110,6 +110,7 @@ Hadoop伪分布式安装步骤
 5）启动hdfs
 	格式化文件系统（仅第一次执行即可，不要重复执行）：hdfs/hadoop namenode -format
 	启动hdfs: sbin/start-dfs.sh
+	(mac 系统下, 要开启 远程登录   :   系统偏好->共享 -> 远程登录)
 	验证是否启动成功：
 		jps
 			DataNode
